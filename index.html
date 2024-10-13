@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wired Pulse</title>
+    <style>
+        /* Reset default margins and paddings */
+        body, h1, p, footer {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Body styling to mimic 90s web design */
+        body {
+            background-color: #C0C0C0; /* Light grey background */
+            font-family: "Courier New", Courier, monospace; /* Classic monospace font */
+            color: #000000; /* Black text */
+        }
+
+        /* Header styling */
+        header {
+            background-color: #000080; /* Navy blue background */
+            color: #FFFFFF; /* White text */
+            padding: 15px 20px;
+            font-size: 32px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between; /* Distributes space between elements */
+            align-items: center; /* Vertically aligns the items */
+            border-bottom: 2px solid #FFFFFF;
+        }
+
+        /* Navigation links */
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav a {
+            color: #FFFFFF; /* White text for links */
+            text-decoration: none; /* No underline */
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        /* Main content area */
+        .content {
+            padding: 20px;
+            background-color: #FFFFFF; /* White background for content */
+            min-height: 80vh; /* Ensure footer stays at the bottom */
+            border: 2px solid #000080;
+            box-shadow: 5px 5px 0px #000000;
+            margin: 50px auto;
+            max-width: 600px;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #000080; /* Navy blue background */
+            color: #FFFFFF; /* White text */
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 16px;
+            border-top: 2px solid #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Gear icon styling */
+        .gear-icon {
+            display: inline-block;
+            margin-bottom: 5px;
+            font-size: 24px; /* Increased font size for the gear */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div><a href="index.html" style="color: white; text-decoration: none;">Wired Pulse</a></div>
+        <nav>
+            <a href="new_post.html">New Post</a>
+            <a href="archive.html">Archive</a>
+            <a href="culture.html">Culture</a>
+            <a href="signin.html">Sign In</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="content">
+        <h1>Welcome to Wired Pulse</h1>
+        <p>Where ideas pulsate...</p>
+        <p>Stay tuned for more posts!</p>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <span class="gear-icon">&#9881;</span> <!-- Gear Icon (Unicode) -->
+        TFX Media Production
+    </footer>
+</body>
+</html>

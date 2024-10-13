@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Archive - Wired Pulse</title>
+    <style>
+        body, h1, p, footer {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #C0C0C0; /* Light grey background */
+            font-family: "Courier New", Courier, monospace; /* Classic monospace font */
+            color: #000000; /* Black text */
+        }
+
+        header {
+            background-color: #000080; /* Navy blue background */
+            color: #FFFFFF; /* White text */
+            padding: 15px 20px;
+            font-size: 32px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between; /* Distributes space between elements */
+            align-items: center; /* Vertically aligns the items */
+            border-bottom: 2px solid #FFFFFF;
+        }
+
+        nav a {
+            color: #FFFFFF; /* White text for links */
+            text-decoration: none; /* No underline */
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .content {
+            padding: 20px;
+            background-color: #FFFFFF; /* White background for content */
+            min-height: 80vh; /* Ensure footer stays at the bottom */
+            border: 2px solid #000080;
+            box-shadow: 5px 5px 0px #000000;
+            margin: 50px auto;
+            max-width: 600px;
+        }
+
+        footer {
+            background-color: #000080; /* Navy blue background */
+            color: #FFFFFF; /* White text */
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 16px;
+            border-top: 2px solid #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .gear-icon {
+            display: inline-block;
+            margin-bottom: 5px;
+            font-size: 24px; /* Increased font size for the gear */
+        }
+
+        /* List styling */
+        .post-list {
+            list-style-type: none; /* Remove bullet points */
+            padding: 0;
+        }
+
+        .post-list li {
+            border-bottom: 1px solid #000080; /* Divider line */
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div><a href="index.html" style="color: white; text-decoration: none;">Wired Pulse</a></div>
+        <nav>
+            <a href="new_post.html">New Post</a>
+            <a href="archive.html">Archive</a>
+            <a href="culture.html">Culture</a>
+            <a href="signin.html">Sign In</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="content">
+        <h1>Archive</h1>
+        <p>Welcome to the Archive! Here are all the posts:</p>
+        <ul class="post-list">
+            <li><a href="post1.html">Post Title 1</a></li>
+            <li><a href="post2.html">Post Title 2</a></li>
+            <li><a href="post3.html">Post Title 3</a></li>
+            <!-- Add more posts as needed -->
+        </ul>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <span class="gear-icon">&#9881;</span> <!-- Gear Icon (Unicode) -->
+        TFX Media Production
+    </footer>
+</body>
+</html>
